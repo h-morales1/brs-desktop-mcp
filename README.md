@@ -7,7 +7,7 @@ MCP (Model Context Protocol) server for the [brs-desktop](https://github.com/nic
 - **Node.js 18+**
 - **brs-desktop** simulator running with the `--ecp`, `--web`, and `--console` flags:
   ```bash
-  npm run start --ecp --web --console
+  npm run start --ecp --web=8888 --console
   ```
 
 ## Install & Build
