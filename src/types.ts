@@ -12,7 +12,7 @@ export function getConfig(): Config {
   return {
     host: process.env.BRS_HOST || "127.0.0.1",
     ecpPort: parseInt(process.env.BRS_ECP_PORT || "8060", 10),
-    webPort: parseInt(process.env.BRS_WEB_PORT || "80", 10),
+    webPort: parseInt(process.env.BRS_WEB_PORT || "8888", 10),
     consolePort: parseInt(process.env.BRS_CONSOLE_PORT || "8085", 10),
     webPassword: process.env.BRS_WEB_PASSWORD || "rokudev",
     screenshotDelayMs: parseInt(process.env.BRS_SCREENSHOT_DELAY_MS || "500", 10),
