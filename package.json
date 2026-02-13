@@ -1,0 +1,19 @@
+{
+  "name": "brs-desktop-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for interacting with the brs-desktop Roku simulator",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "form-data": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
